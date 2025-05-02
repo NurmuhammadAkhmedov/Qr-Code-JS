@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>QR Kod Generatori</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="qr-code-box">
+        <h2>QR KOD GENERATORI</h2>
+        <form action="" class="qr-code-form">
+            <input type="text" class="qr-code-input" placeholder="url yoki matn">
+            <button type="submit">QR Kod Yaratish</button>
+            <div class="qr-code-show"></div>
+            <div class="color-options">
+                <label>QR KOD rangi</label>
+                <input type="color" class="color-qr" value="#000000">
+                <label>QR KOD fon rangi</label>
+                <input type="color" class="color-qr1" value="#ffffff">
+            </div>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
